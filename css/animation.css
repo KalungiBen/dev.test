@@ -1,0 +1,84 @@
+body{
+    position:absolute;
+}
+
+.animantion-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    margin-top:300px 
+
+}
+@media screen and (max-width: 900px){
+    .animantion-section, #animation-shift, .cube, .cube-face{
+        display: none;
+    }
+}
+#animation-shift{
+    margin-bottom: 100px;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 10s infinite linear;
+}
+
+.cube-face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.cube-face:nth-child(1) { transform: rotateY(0deg) translateZ(100px); }
+.cube-face:nth-child(2) { transform: rotateY(90deg) translateZ(100px); }
+.cube-face:nth-child(3) { transform: rotateY(180deg) translateZ(100px); }
+.cube-face:nth-child(4) { transform: rotateY(-90deg) translateZ(100px); }
+.cube-face:nth-child(5) { transform: rotateX(90deg) translateZ(100px); }
+.cube-face:nth-child(6) { transform: rotateX(-90deg) translateZ(100px); }
+
+@keyframes rotate {
+    from { transform: rotateX(0deg) rotateY(0deg); }
+    to { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+.animation-content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.animation-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.animantion-subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+       /* .cta-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #1e90ff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }*/
+
+       /* .cta-button:hover {
+            background-color: #1c86ee;
+        }*/

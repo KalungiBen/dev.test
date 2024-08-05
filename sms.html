@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDTech | School Management System </title>
+
+    <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <!-- Icon Font Stylesheet -->      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="sms-landing/sms.css">
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>kampala-uganda</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>fdt.company@gmail.com</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
+                    <div class="top-link">
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold d-block">FD<span class="text-secondary">Tech</span> </h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link text-secondary">Home</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What we offer</a>
+                                <div class="dropdown-menu rounded">
+                                   
+                                    <a href="sms.html" class="dropdown-item active">somAsmart</a>
+                                    <a href="graphics-index.html" class="dropdown-item">Graphic Designing</a>
+                                    <a href="development-index.html" class="dropdown-item">Web development</a>
+                                    <a href="consult-index.html" class="dropdown-item"> Consultation </a>
+                                </div>
+                            </div>
+                            <a href="contact-index.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Have any questions?</span>
+                            <span class="text-secondary">Call: +256 700532537.....</span>
+                        </div>
+                       
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+    
+
+    <main>
+        <section id="hero">
+            <div class="container d-flex">              
+                <div class="hero-content">
+                    <h1 id="Top">Revolutionize Your School Management</h1>
+                    <p>Empower your educational institution with our cutting-edge, all-in-one management solution.</p>
+                    <a href="#" class="cta-button">Whatsapp for free Trial</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h2>Powerful Features</h2>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Student Management</h3>
+                        <p>Streamline student records and profiles with ease.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>Attendance Tracking</h3>
+                        <p>Monitor and manage attendance effortlessly.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Performance Analytics</h3>
+                        <p>Gain insights with comprehensive reporting tools.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-comments"></i>
+                        <h3>Communication Hub</h3>
+                        <p>Foster seamless interaction between staff, students, and parents.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container">
+                <h2>Flexible Pricing Plans</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-plan">
+                        <h3>Starter</h3>
+                        <p class="price">500 UGX<span>/student/Term</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Student Management</li>
+                            <li><i class="fas fa-check"></i> Attendance Tracking</li>
+                            <li><i class="fas fa-check"></i> Report card Generating</li>
+                            <li><i class="fas fa-times"></i> Monthly Analytics</li>
+                            <li><i class="fas fa-check"></i> free software update </li>
+                        </ul>
+                        <a href="payment/payment-index.html" class="cta-button secondary">Choose Plan</a>
+                    </div>
+                    <div class="pricing-plan popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Professional</h3>
+                        <p class="price">600 UGX<span>/student/Term</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> All in Basic</li>
+                            <li><i class="fas fa-check"></i> Payroll management<li>
+                            <li><i class="fas fa-check"></i> Accounting management</li>
+                            <li><i class="fas fa-check"></i> Inventory management</li>
+                            <li><i class="fas fa-check"></i> free software update </li>
+                        </ul>
+                        <a href="payment/payment-index.html" class="cta-button" >Choose Plan</a>
+                    </div>
+                    <div class="pricing-plan">
+                        <h3>Enterprise</h3>
+                        <p class="price">1000 UGX<span>/student/Term</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> All Basic and Professional Features</li>
+                            <li><i class="fas fa-check"></i> Simple message service</li>
+                            <li><i class="fas fa-check"></i> Mobile application</li>
+                            <li><i class="fas fa-check"></i> communication hub</li>
+                            <li><i class="fas fa-check"></i> Transport management</li>
+                            <li><i class="fas fa-check"></i> Library management</li>
+                            <li><i class="fas fa-check"></i> free software update </li>
+                        </ul>
+                        <a href="payment/payment-index.html" class="cta-button secondary">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="screenshots">
+            <div class="container">
+                <h2>See SomaSmart in Action</h2>
+                <div class="screenshot-carousel">
+                    <div class="screenshot">
+                        <img src="img/school/school-1.jpg" alt="Dashboard Screenshot">
+                        <p>Intuitive Dashboard</p>
+                    </div>
+                    <div class="screenshot">
+                        <img src="img/school/school-2.jpg" alt="Student Profile Screenshot">
+                        <p>Student marksheet</p>
+                    </div>
+                    <div class="screenshot">
+                        <img src="img/school/school-3.jpg" alt="Analytics Screenshot">
+                        <p>Login page</p>
+                    </div>
+                    <div class="screenshot">
+                        <img src="img/school/school-4.jpg" alt="Analytics Screenshot">
+                        <p>Student report generated</p>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-carousel">
+                    <div class="testimonial">
+                        <p>"SomaSmart has transformed how we run our school. The efficiency gains are remarkable."</p>
+                        <div class="testimonial-author">
+                            <!-- <img src="principal.jpg" alt="John Doe"> -->
+                            <div>
+                                <h4>Kiraga Richard</h4>
+                                <p>Principal, Kidwell Kindergaten</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The parent portal has greatly improved our communication with families. It's a game-changer!"</p>
+                        <div class="testimonial-author">
+                            <!-- <img src="teacher.jpg" alt="Jane Smith"> -->
+                            <div>
+                                <h4>Najjingo Resty</h4>
+                                <p>Teacher, Hill Top Primary school</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-wrapper">
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <p>fdt.company@gmail.com</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <p>+256 700532537</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>kampala-uganda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <h1 class="text-white fw-bold d-block">FD<span class="text-secondary">Tech</span> </h1>
+                        </a>
+                        <p class="mt-4 text-light">Get in touch with FDTech to start transforming your ideas into reality. Contact us today to learn how our services can drive your business forward. We look forward to partnering with you!</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="sms.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Soma Smart</a>
+                            <a href="contact-index.htnl" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="development-index.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Web Development</a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Help Link</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Privacy Policy</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FQAs</a>
+                            <a href="contact-index.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Kampala Uganda</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> Get in touch with FDTech to start transforming your ideas into reality. Contact us today to learn how our services can drive your business forward. We look forward to partnering with you!</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> fdt.company@gmail.con</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Future Drive Technologies</a>, All right reserved.</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="web-development/development-script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="sms-landing/sms.js"></script>
+</body>
+</html>

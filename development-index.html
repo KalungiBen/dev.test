@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDTech | Web Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Icon Font Stylesheet -->      
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="web-development/style.css">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+ <!-- Topbar Start -->
+    <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between topbar">
+                <div class="top-info">
+                    <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>kampala-uganda</small>
+                    <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>fdt.company@gmail.com</small>
+                </div>
+                <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
+                <div class="top-link">
+                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white fw-bold d-block">FD<span class="text-secondary">Tech</span> </h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                        <a href="index.html" class="nav-item nav-link text-secondary">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What we offer</a>
+                            <div class="dropdown-menu rounded">
+                                <a href="sms.html" class="dropdown-item">somAsmart</a>
+                                <a href="graphics-index.html" class="dropdown-item">Graphic Designing</a>
+                                <a href="development-index.html"  class="dropdown-item active">Web development</a>
+                                <a href="consult-index.html" class="dropdown-item"> Consultation </a>
+                            </div>
+                        </div> 
+                        <a href="contact-index.html" class="nav-item nav-link">Contact</a>                       
+                    </div>
+                </div>
+                <div class="d-none d-xl-flex flex-shirink-0">
+                    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                        <a href="" class="position-relative animated tada infinite">
+                            <i class="fa fa-phone-alt text-white fa-2x"></i>
+                            <div class="position-absolute" style="top: -7px; left: 20px;">
+                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column pe-4 border-end">
+                        <span class="text-white-50">Have any questions?</span>
+                        <span class="text-secondary">Call: +256 700532537</span>
+                    </div>
+                   
+                </div>
+            </nav>
+        </div>
+    </div>
+        <!-- Navbar End -->
+
+    <main>
+        <section id="home" class="hero2" class="spec">
+            <div class="container">
+                <div class="hero2-content">
+                    <h1>Transforming Ideas into Digital Reality</h1>
+                    <p>FDTech is your partner in creating stunning, high-performance websites that drive results. Let's build something amazing together!</p>
+                    <a href="#contact" class="action-button">Whatsapp Us</a>
+                </div>
+            </div>
+            <img src="img/web/corausel.png" class="hero-image" alt="Web development">
+
+        </section>        
+        <section class="main-container" id="intro">
+            <h1>Tailored Web Solutions for Your Unique Needs</h1>
+            <p>At TechVision, we specialize in creating powerful, purpose-driven websites that drive results. Explore our expertise in real estate, education, organizational, and startup web development.</p>
+        </section>
+
+            <!-- REAL EASTATE -->
+
+        <section class="main-container" id="real-estate" class="website-type">
+            <h2 class="title">Real Estate Websites</h2>
+            <div class="content-wrapper">
+                <div class="image-container">
+                    <img loading = "lazy" src="img/web/real.jpg" alt="Real Estate Website Example">
+                </div>
+                <div class="text-content">
+                    <div class="description">
+                            <h3>Showcasing Properties, Closing Deals</h3>
+                            <p>In the competitive real estate market, your website is often the first point of contact with potential buyers and sellers. We create immersive, feature-rich real estate websites that not only showcase properties beautifully but also drive conversions.</p>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Advanced property search with filters</li>
+                                <li>Interactive maps and neighborhood information</li>
+                                <li>Virtual tours and high-quality image galleries</li>
+                                <li>Lead capture forms and CRM integration</li>
+                                <li>Agent profiles and direct contact options</li>
+                                <li>Mobile-responsive design for on-the-go access</li>
+                            </ul>
+                        </div>
+                        <div class="pricing">
+                            <h3>Investment in Your Success</h3>
+                            <p>Basic Package: Starting at $5,000</p>
+                            <p>Premium Package: Starting at $10,000</p>
+                            <p>Custom Enterprise Solutions: Tailored pricing based on specific requirements</p>
+                            <p class="pricing-note">Factors influencing cost include the number of listings, custom features, integration complexity, and ongoing maintenance needs.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- SCHOOL WEBSITE -->
+
+        <section class="main-container" id="school" class="website-type">
+            <h2 class="title text-align">School Websites</h2>
+            <div class="content-wrapper">        
+                <div class="text-content">
+                    <div class="image-container " id="mobile-image">
+                        <img loading="lazy" src="img/web/school.jpg" alt="School Website Example">
+                    </div>
+                    <div class="description ">
+                            <h3>Connecting Education Communities</h3>
+                            <p>A school website serves as a central hub for students, parents, faculty, and the community. We develop intuitive, informative school websites that enhance communication, showcase achievements, and streamline administrative processes.</p>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>User-friendly content management system</li>
+                                <li>Event calendar and announcements</li>
+                                <li>Secure student and parent portals</li>
+                                <li>Faculty directories and class pages</li>
+                                <li>Resource centers and document libraries</li>
+                                <li>Integration with learning management systems</li>
+                            </ul>
+                        </div>
+                        <div class="pricing">
+                            <h3>Investing in Educational Excellence</h3>
+                            <p>Basic School Site: Starting at $3,500</p>
+                            <p>Comprehensive School Portal: Starting at $8,000</p>
+                            <p>District-wide Solution: Custom pricing based on number of schools and features</p>
+                            <p class="pricing-note">Pricing considers factors such as the size of the school, required features, level of customization, and ongoing support needs.</p>
+                        </div>
+                </div>
+                <div class="image-container " id="desk-image">
+                    <img loading="lazy" src="img/web/school.jpg" alt="School Website Example">
+                </div>
+            </div>
+        </section>
+
+           <!-- ORGANISATION -->
+
+        <section class="main-container" id="organization" class="website-type">
+            <h2 class="title">Organization Websites</h2>
+            <div class="content-wrapper">
+                <div class="image-container">
+                    <img loading="lazy" src="img/web/organisation.jpg" alt="Organization Website Example">
+                </div>
+                <div class="text-content">
+                    <div class="description">
+                            <h3>Amplifying Your Mission Online</h3>
+                            <p>For non-profits and organizations, a website is crucial for sharing your mission, engaging supporters, and driving action. We create impactful organization websites that tell your story, facilitate donations, and build community.</p>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Compelling storytelling and impact reporting</li>
+                                <li>Secure and easy-to-use donation systems</li>
+                                <li>Volunteer management and event registration</li>
+                                <li>Blog and news sections for updates</li>
+                                <li>Social media integration and sharing tools</li>
+                                <li>Accessibility features for inclusive design</li>
+                            </ul>
+                        </div>
+                        <div class="pricing">
+                            <h3>Empowering Your Cause</h3>
+                            <p>Basic Informational Site: Starting at $2,500</p>
+                            <p>Full-Featured Organization Platform: Starting at $7,000</p>
+                            <p>Custom Campaign Microsites: Starting at $1,500 per site</p>
+                            <p class="pricing-note">Pricing varies based on the complexity of donation systems, level of customization, integration requirements, and scalability needs.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+       
+          <!-- START UP -->
+
+        <section class="main-container" id="startup" class="website-type">
+            <h2 class="title text-align">Startup Business Websites</h2>
+            <div class="content-wrapper"> 
+                <div class="image-container " id="mobile-image">
+                    <img loading="lazy" src="img/web/startup.jpg" alt="School Website Example">
+                </div>                     
+                <div class="text-content">
+                    <div class="description">
+                            <h3>Launching Your Vision Online</h3>
+                            <p>For startups, a website is often the cornerstone of your digital presence. We develop agile, scalable startup websites that make a strong first impression, clearly communicate your value proposition, and support your growth goals.</p>
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Clean, modern design that reflects your brand</li>
+                                <li>Responsive layouts for all devices</li>
+                                <li>Lead generation and newsletter sign-ups</li>
+                                <li>Product or service showcases</li>
+                                <li>Integration with marketing and analytics tools</li>
+                                <li>Scalable architecture to grow with your business</li>
+                            </ul>
+                        </div>
+                        <div class="pricing">
+                            <h3>Investing in Your Growth</h3>
+                            <p>Startup Landing Page: Starting at $1,500</p>
+                            <p>Full Startup Website: Starting at $5,000</p>
+                            <p>Custom Web Application: Tailored pricing based on functionality</p>
+                            <p class="pricing-note">Pricing is influenced by design complexity, required features, integration needs, and anticipated scaling requirements.</p>
+                        </div>
+                </div>
+                <div class="image-container" id="desk-image">
+                    <img loading="lazy" src="img/web/startup.jpg" alt="Startup Website Example">
+                </div>
+            </div>
+        </section> 
+
+<!-- TECHNOLOGIES -->
+        <section id="technologies" class="technologies">
+            <div class="container">
+                <h2>Technologies We Master</h2>
+                <div class="tech-showcase">
+                    <div class="tech-item" data-tech="react">
+                        <div class="tech-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React</h3>
+                        <div class="tech-details">
+                            <p>Building dynamic and responsive user interfaces with React's powerful component-based architecture.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item" data-tech="html">
+                        <div class="tech-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <div class="tech-details">
+                            <p>Crafting semantic and accessible web structures using the latest HTML5 features and best practices.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item" data-tech="css">
+                        <div class="tech-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <div class="tech-details">
+                            <p>Styling websites with modern CSS3 techniques, including flexbox, grid, and animations for stunning designs.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item" data-tech="wordpress">
+                        <div class="tech-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h3>WordPress</h3>
+                        <div class="tech-details">
+                            <p>Developing custom WordPress themes and plugins for flexible and scalable content management solutions.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item" data-tech="php">
+                        <div class="tech-icon">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <h3>PHP</h3>
+                        <div class="tech-details">
+                            <p>Creating robust server-side applications and APIs using PHP's powerful and versatile programming capabilities.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item" data-tech="node">
+                        <div class="tech-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h3>Node.js</h3>
+                        <div class="tech-details">
+                            <p>Building fast and scalable server-side applications with Node.js for efficient backend solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+<!-- TESTMONIALS -->
+        <section class="main-container" id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-item">
+                        <p>"FDTech transformed our online presence. Their expertise and creativity resulted in a website that truly represents our brand."</p>
+                        <div class="client-info">
+                            
+                            <h4>Kiyimba Roger</h4>
+                            <p>CEO, Real Estate Co.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"Working with FDTech was a game-changer for our school. They delivered a user-friendly website that our students and parents love."</p>
+                        <div class="client-info">
+                            <!-- <img src="client2.jpg" alt="Client 2"> -->
+                            <h4>Chebt Lucy</h4>
+                            <p>Principal, International Academy</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"FDTech's expertise in startup websites helped us launch with a bang. Their work directly contributed to our early success."</p>
+                        <div class="client-info">
+                            <!-- <img src="client3.jpg" alt="Client 3"> -->
+                            <h4>Musau Lynn</h4>
+                            <p>Founder, Tech Innovators</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+<!-- WHY CHOOSE US -->
+        <section id="why-choose-us" class="why-choose-us">
+            <div class="container">
+                <h2>Why Choose FDTech</h2>
+                <div class="choose-grid">
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Innovative Solutions</h3>
+                        <p>We leverage cutting-edge technologies to deliver innovative and future-proof web solutions.</p>
+                    </div>
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Expert Team</h3>
+                        <p>Our team of seasoned professionals brings years of experience and expertise to every project.</p>
+                    </div>
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Performance Focused</h3>
+                        <p>We optimize every aspect of your website to ensure lightning-fast load times and smooth performance.</p>
+                    </div>
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Our websites look and function flawlessly across all devices, from desktops to smartphones.</p>
+                    </div>
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Security First</h3>
+                        <p>We implement robust security measures to protect your website and your users' data.</p>
+                    </div>
+                    <div class="choose-item">
+                        <div class="choose-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Dedicated Support</h3>
+                        <p>Our commitment to your success extends beyond launch with ongoing support and maintenance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- FREQUENTLY ASKED QUESTIONS -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3 class="faq-question">What types of websites do you create?</h3>
+                        <p class="faq-answer">We specialize in creating websites for real estate companies, schools, organizations, and startup businesses. Our team is experienced in developing a wide range of web solutions to meet diverse needs.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">How long does it take to complete a website?</h3>
+                        <p class="faq-answer">The timeline for website completion varies depending on the project's complexity. Typically, a basic website can be completed in 4-6 weeks, while more complex projects may take 8-12 weeks or more.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Do you offer website maintenance services?</h3>
+                        <p class="faq-answer">Yes, we offer ongoing website maintenance and support services to ensure your website remains up-to-date, secure, and performs optimally.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Can you help with SEO and digital marketing?</h3>
+                        <p class="faq-answer">Absolutely! We offer SEO optimization services and can assist with digital marketing strategies to help improve your website's visibility and attract more visitors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+
+        <section class="main-container" id="contact">
+            <h2>Ready to Start Your Web Project?</h2>
+            <p>Let's discuss your specific needs and create a tailored solution that drives your success.</p>
+            <form id="quote-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select required>
+                    <option value="" disabled selected>Select Website Type</option>
+                    <option value="real-estate">Real Estate</option>
+                    <option value="school">School</option>
+                    <option value="organization">Organization</option>
+                    <option value="startup">Startup</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea placeholder="Tell us about your project and specific requirements" required></textarea>
+                <button type="submit" class="cta-button">Get Your Free Quote</button>
+            </form>
+        </section>
+    </main>
+
+        <!-- Footer Start -->
+     <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+        <div class="container pt-5 pb-4">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <a href="index.html">
+                        <h1 class="text-white fw-bold d-block">FD<span class="text-secondary">Tech</span> </h1>
+                    </a>
+                    <p class="mt-4 text-light">Get in touch with FDTech to start transforming your ideas into reality. Contact us today to learn how our services can drive your business forward. We look forward to partnering with you!</p>
+                    <div class="d-flex hightech-link">
+                        <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#" class="h3 text-secondary">Short Link</a>
+                    <div class="mt-4 d-flex flex-column short-link">
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Soma Smart</a>
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Web Development</a>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#" class="h3 text-secondary">Help Link</a>
+                    <div class="mt-4 d-flex flex-column help-link">
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Privacy Policy</a>
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a>
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FQAs</a>
+                        <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#" class="h3 text-secondary">Contact Us</a>
+                    <div class="text-white mt-4 d-flex flex-column contact-link">
+                        <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Kampala Uganda</a>
+                        <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +256 700532537</a>
+                        <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> fdt.company@gmail.con</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-light mt-5 mb-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Future Drive Technologies</a>, All right reserved.</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+        <!-- Footer End -->
+        <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="web-development/development-script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,329 @@
+:root {
+    --primary-blue: #1a5f7a;
+    --accent-yellow: #ffd700;
+    --accent-red: #ff6b6b;
+    --text-color: #333;
+    --background-color: #f7f7f7;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#hero {
+    text-align: center;
+    padding: 150px 0 100px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column;
+    }
+
+    .hero-content, .hero-image {
+        flex: none;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .hero-image {
+        margin-top: 2rem;
+    }
+}
+
+.solution-area, .expertise-area {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-left: 4px solid var(--primary-blue);
+}
+
+.solution-area h3, .expertise-area h3 {
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.solution-area p, .expertise-area p {
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent-yellow);
+    color: var(--text-color);
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cta-button:hover {
+    background-color: var(--accent-red);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 215, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+    }
+}
+
+.service-grid, .expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.service-card, .expertise-item {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.service-card:hover, .expertise-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-card i, .expertise-item i {
+    font-size: 3rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.process-timeline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.process-timeline::before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-blue);
+    z-index: -1;
+}
+
+.process-step {
+    text-align: center;
+    flex: 1;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-blue);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.training-offerings {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.training-item {
+    text-align: center;
+    flex-basis: 30%;
+    margin-bottom: 2rem;
+}
+
+.training-item i {
+    font-size: 3rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+#consultation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 3rem auto 0;
+}
+
+#consultation-form input,
+#consultation-form select,
+#consultation-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#consultation-form button {
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#consultation-form button:hover {
+    background-color: var(--accent-yellow);
+    color: var(--text-color);
+}
+
+.consultation-process {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.consultation-process h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #005580;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.step-number {
+    background-color: #005580;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #005580;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .process-timeline {
+        flex-direction: column;
+    }
+
+    .process-timeline::before {
+        display: none;
+    }
+
+    .process-step {
+        margin-bottom: 2rem;
+    }
+
+    .training-item {
+        flex-basis: 100%;
+    }
+}
